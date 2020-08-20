@@ -1,4 +1,9 @@
 {
   "item.poweruprings.swiftnessring": "Swiftness Ring",
-  "item.poweruprings.respirationring": "Respiration Ring"
+  "item.poweruprings.respirationring": "Respiration Ring",
+  "item.poweruprings.hardnessring": "Hardness Ring",
+  "item.poweruprings.hastering": "Haste Ring",
+  "item.poweruprings.satiationring": "Satiation Ring",
+  "item.poweruprings.strengthring": "Strength Ring",
+  "item.poweruprings.vitalityring": "Vitality Ring"
 }

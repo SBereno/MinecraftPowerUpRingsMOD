@@ -1,7 +1,6 @@
 package com.example.examplemod;
 
-import com.example.examplemod.events.RespirationEvent;
-import com.example.examplemod.events.SwiftnessEvent;
+import com.example.examplemod.events.*;
 import com.example.examplemod.util.GroupGenerator;
 import com.example.examplemod.util.RegistryHandler;
 import com.example.examplemod.util.SupportMods;
@@ -35,7 +34,12 @@ public class ExampleMod {
     }
 
     private void registerEvents() {
-        MinecraftForge.EVENT_BUS.register(new SwiftnessEvent());
+        MinecraftForge.EVENT_BUS.register(new HardnessEvent());
+        MinecraftForge.EVENT_BUS.register(new HasteEvent());
         MinecraftForge.EVENT_BUS.register(new RespirationEvent());
+        MinecraftForge.EVENT_BUS.register(new SatiationEvent());
+        MinecraftForge.EVENT_BUS.register(new StrengthEvent());
+        MinecraftForge.EVENT_BUS.register(new SwiftnessEvent());
+        MinecraftForge.EVENT_BUS.register(new VitalityEvent());
     }
 }

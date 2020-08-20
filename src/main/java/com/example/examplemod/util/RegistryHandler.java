@@ -19,5 +19,10 @@ public class RegistryHandler {
     // Items
     public static final RegistryObject<Item> swiftnessRing = ITEMS.register("swiftnessring", BaseRing::new);
     public static final RegistryObject<Item> respirationRing = ITEMS.register("respirationring", BaseRing::new);
+    public static final RegistryObject<Item> hardnessRing = ITEMS.register("hardnessring", BaseRing::new);
+    public static final RegistryObject<Item> hasteRing = ITEMS.register("hastering", BaseRing::new);
+    public static final RegistryObject<Item> satiationRing = ITEMS.register("satiationring", BaseRing::new);
+    public static final RegistryObject<Item> strengthRing = ITEMS.register("strengthring", BaseRing::new);
+    public static final RegistryObject<Item> vitalityRing = ITEMS.register("vitalityring", BaseRing::new);
 
 }

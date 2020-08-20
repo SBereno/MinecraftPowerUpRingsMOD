@@ -1,5 +1,12 @@
 {
   "replace": "false",
-  "values": ["poweruprings:swiftnessring",
-  "poweruprings:respirationring"]
+  "values": [
+    "poweruprings:swiftnessring",
+    "poweruprings:respirationring",
+    "poweruprings:hardnessring",
+    "poweruprings:hastering",
+    "poweruprings:satiationring",
+    "poweruprings:strengthring",
+    "poweruprings:vitalityring"
+  ]
 }
